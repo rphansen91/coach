@@ -11,6 +11,8 @@ A personal, all-around life coach powered by [Mastra](https://mastra.ai) and dep
 
 ## Getting Started
 
+Requires Node.js 22.13+.
+
 ```bash
 npm install
 npm run dev
@@ -20,10 +22,10 @@ Open the Mastra playground at http://localhost:4111 to chat with your coach.
 
 ## Environment
 
-Create a `.env` file:
+Copy `.env.example` to `.env` and set your key:
 
 ```bash
-OPENAI_API_KEY=your-key-here
+cp .env.example .env
 ```
 
 ## Deploy
